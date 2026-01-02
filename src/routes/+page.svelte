@@ -2,7 +2,7 @@
   import Header from "$lib/Header.svelte";
   import Hero from "$lib/Hero.svelte";
   import Logos from "$lib/Logos.svelte";
-  import WhyEcho from "$lib/WhyEcho.svelte";
+  import WhyProspera from "$lib/WhyProspera.svelte";
   import Products from "$lib/Products.svelte";
   import FoundersBanner from "$lib/FoundersBanner.svelte";
   import FAQ from "$lib/FAQ.svelte";
@@ -16,7 +16,7 @@
   <main>
     <Hero />
     <Logos />
-    <WhyEcho />
+    <WhyProspera />
     <Products />
     <FoundersBanner />
     <FAQ />

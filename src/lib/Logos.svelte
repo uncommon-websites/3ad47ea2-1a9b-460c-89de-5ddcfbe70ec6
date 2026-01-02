@@ -1,44 +1,49 @@
 <script>
-  // Logos component
+  // Logos component - Trusted by sophisticated crypto investors
 </script>
 
 <section class="px-6 py-12 border-b border-gray-200">
-  <div class="flex flex-wrap justify-between items-center gap-8 opacity-50 grayscale">
-    <!-- Ethena -->
-    <div class="flex items-center gap-2 font-serif text-xl font-bold">
-      <div class="w-5 h-5 bg-gray-600 rounded-full"></div>
-      Ethena
+  <div class="text-center mb-8">
+    <span class="text-[10px] tracking-widest text-gray-400 uppercase">Trusted by sophisticated crypto investors</span>
+  </div>
+  <div class="flex flex-wrap justify-center items-center gap-12 opacity-40 grayscale">
+    <!-- Enzyme Finance -->
+    <div class="flex items-center gap-2 font-sans font-bold text-lg">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="5" r="2"/><circle cx="12" cy="19" r="2"/><circle cx="5" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>
+      Enzyme
     </div>
     
-    <!-- DAWN -->
-    <div class="flex items-center gap-1 font-sans font-bold text-xl tracking-tighter">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 22h20L12 2z"/></svg>
-      DAWN
-    </div>
-
-    <!-- Ethos -->
+    <!-- Ribbon Finance -->
     <div class="flex items-center gap-2 font-serif text-xl italic">
-      <div class="flex flex-col gap-0.5">
-        <div class="w-4 h-0.5 bg-gray-600"></div>
-        <div class="w-4 h-0.5 bg-gray-600"></div>
-        <div class="w-4 h-0.5 bg-gray-600"></div>
+      Ribbon
+    </div>
+
+    <!-- Aevo -->
+    <div class="flex items-center gap-1 font-sans font-bold text-lg tracking-tight">
+      <div class="w-5 h-5 bg-gray-600 rounded-sm transform rotate-45"></div>
+      Aevo
+    </div>
+
+    <!-- Wealthfront -->
+    <div class="flex items-center gap-1 font-sans font-medium text-lg">
+      <div class="flex gap-0.5">
+        <div class="w-1 h-5 bg-gray-600"></div>
+        <div class="w-1 h-5 bg-gray-600"></div>
+        <div class="w-1 h-5 bg-gray-600"></div>
       </div>
-      Ethos
+      Wealthfront
     </div>
 
-    <!-- WILDCAT -->
+    <!-- Robinhood -->
     <div class="flex items-center gap-2 font-sans font-bold text-lg">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zm0 9l2 10 8-4-10-6zm0 0L2 17l8 4 2-10z"/></svg>
-      WILDCAT
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M12 12v10l10-5v-5l-10 5z"/></svg>
+      Robinhood
     </div>
 
-    <!-- OneBalance -->
-    <div class="flex items-center gap-1 font-sans font-medium text-xl">
+    <!-- Trade Republic -->
+    <div class="flex items-center gap-1 font-sans font-medium text-lg tracking-tight">
       <div class="w-5 h-5 border-2 border-gray-600 rounded-full"></div>
-      OneBalance
+      Trade Republic
     </div>
-
-    <!-- ME -->
-    <div class="font-black text-xl tracking-tighter">ME</div>
   </div>
 </section>
